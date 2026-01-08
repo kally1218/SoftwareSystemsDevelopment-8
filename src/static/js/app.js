@@ -1,9 +1,20 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
+
+    const titleStyle = {
+        fontFamily: "'Courier New', Courier, monospace",
+        fontWeight: "bold",
+        color: "#4a4e69",
+    };
+    
     return (
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
+                    <h1 className="text-center mt-5 mb-4" style={titleStyle}>
+                        To Do APP  by kally1218
+                    </h1>
+    
                     <TodoListCard />
                 </Col>
             </Row>
