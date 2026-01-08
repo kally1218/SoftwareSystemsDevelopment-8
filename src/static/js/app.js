@@ -4,7 +4,7 @@ function App() {
     const titleStyle = {
         fontFamily: "'Courier New', Courier, monospace",
         fontWeight: "bold",
-        color: "#4a4e69",
+        color: "#2C3E50",
     };
     
     return (
@@ -12,7 +12,7 @@ function App() {
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <h1 className="text-center mt-5 mb-4" style={titleStyle}>
-                        To Do APP  by kally1218
+                        ToDo APP  by kally1218
                     </h1>
     
                     <TodoListCard />
